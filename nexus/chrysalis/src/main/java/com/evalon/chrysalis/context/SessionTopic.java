@@ -3,7 +3,7 @@ package com.evalon.chrysalis.context;
 /**
  * @author Evangelos Pappas - Evalon.gr
  */
-public class SessionTopic<T> implements Topic
+public class SessionTopic<T> implements com.evalon.chrysalis.reactive.Topic
 {
 	private final String		topic;
 	private final Session<T, T>	session;

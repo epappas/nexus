@@ -1,11 +1,10 @@
-package com.evalon.chrysalis.context;
+package com.evalon.chrysalis.reactive;
 
-public interface Topic
-{
+public interface Topic {
 	<V> Object publish(V message);
-	
+
 	boolean subscribe(Object node);
-	
+
 	boolean start();
-	
+
 }
