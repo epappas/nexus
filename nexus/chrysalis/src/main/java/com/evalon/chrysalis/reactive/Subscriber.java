@@ -3,7 +3,7 @@ package com.evalon.chrysalis.reactive;
 /** User: Evangelos */
 public interface Subscriber {
 
-	public <V> V onMessage(V v);
+	public <R, V> R onMessage(V v);
 
 	public <V> void onError(V v);
 
